@@ -49,7 +49,7 @@
         }
       }
     },
-    "/test/del": {
+    "/test/delete": {
       "delete": {
         "tags": [
           "test"
