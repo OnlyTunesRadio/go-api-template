@@ -1,0 +1,74 @@
+{
+  "info": {
+    "version": "1.0.0",
+    "title": "OnlyTunes API Template",
+    "x-logo": {
+      "url": "https://cdn.onlytunes.xyz/OnlyTunesBG.jpeg",
+      "backgroundColor": "#FFFFFF",
+      "altText": "OnlyTunes Logo"
+    }
+  },
+  "paths": {
+    "/test/get": {
+      "get": {
+        "tags": [
+          "test"
+        ],
+        "summary": "Get test",
+        "description": "Get test",
+        "operationId": "getTest",
+        "responses": {
+          "200": {
+            "description": "Example Of Get",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/test/post": {
+      "post": {
+        "tags": [
+          "test"
+        ],
+        "summary": "Post test",
+        "description": "Post test",
+        "operationId": "postTest",
+        "responses": {
+          "200": {
+            "description": "Post Message Received",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/test/del": {
+      "delete": {
+        "tags": [
+          "test"
+        ],
+        "summary": "Delete test",
+        "description": "Delete test",
+        "operationId": "deleteTest",
+        "responses": {
+          "200": {
+            "description": "Item deleted successfully.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "openapi": "3.0.0"
+}

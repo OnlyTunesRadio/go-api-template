@@ -1,0 +1,6 @@
+.tmp
+.env
+.env.example
+.gitignore
+.idea
+.git
