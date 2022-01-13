@@ -25,7 +25,7 @@ func main() {
 		SpecPath:    "/srv/static/swagger.json",
 		SpecFile:    "/srv/static/swagger.json",
 		Title:       "OnlyTunes API Template",
-		Description: "API Doucmentation for OnlyTunes API Template",
+		Description: "API Documentation for OnlyTunes API Template",
 	}
 	// =================
 	// Declaring Environment variables
@@ -48,6 +48,9 @@ func main() {
 		// Uncomment the line below to disable the logging Gorm does by default
 		//Logger: logger.Default.LogMode(logger.Silent),
 	})
+	if err != nil {
+		log.Printf("Error connecting to the database: ERR: %v", err)
+	}
 	// =================
 	// Initialize Router and WebServer
 	// =================
